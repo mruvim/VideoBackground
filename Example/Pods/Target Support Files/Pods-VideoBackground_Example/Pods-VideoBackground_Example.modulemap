@@ -1,0 +1,6 @@
+framework module Pods_VideoBackground_Example {
+  umbrella header "Pods-VideoBackground_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

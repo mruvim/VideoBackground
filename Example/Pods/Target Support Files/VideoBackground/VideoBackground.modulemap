@@ -1,0 +1,6 @@
+framework module VideoBackground {
+  umbrella header "VideoBackground-umbrella.h"
+
+  export *
+  module * { export * }
+}

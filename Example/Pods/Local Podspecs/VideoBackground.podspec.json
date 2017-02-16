@@ -1,0 +1,22 @@
+{
+  "name": "VideoBackground",
+  "version": "0.1.0",
+  "summary": "A short description of VideoBackground.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mruvim/VideoBackground",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mruvim": "mruvim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mruvim/VideoBackground.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VideoBackground/Classes/**/*"
+}

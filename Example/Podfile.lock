@@ -1,0 +1,16 @@
+PODS:
+  - VideoBackground (0.1.0)
+
+DEPENDENCIES:
+  - VideoBackground (from `../`)
+
+EXTERNAL SOURCES:
+  VideoBackground:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VideoBackground: 68f8f5041a0fe86b8b18ea9e23ce05a2fd1e5a8b
+
+PODFILE CHECKSUM: ab24a93a212c8684f91cd237f7d30bd1204708b7
+
+COCOAPODS: 1.2.0
