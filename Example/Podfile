@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VideoBackground_Example' do
+  pod 'VideoBackground', :path => '../'
+
+  target 'VideoBackground_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
