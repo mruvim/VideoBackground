@@ -23,8 +23,9 @@ class ExampleController: UIViewController {
                 return
         }
         
-        let options = VideoOptions(pathToVideo: videoPath, pathToImage: imagePath, isMuted: true, shouldLoop: true)
+        let options = VideoOptions(pathToVideo: videoPath, pathToImage: imagePath,
+                                   isMuted: true, shouldLoop: true)
         let videoView = VideoBackground(frame: view.frame, options: options)
-        view.addSubview(videoView)
+        view.insertSubview(videoView, at: 0)
     }
 }
