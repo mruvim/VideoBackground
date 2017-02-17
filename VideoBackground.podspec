@@ -9,7 +9,7 @@ s.summary                 = "Simple button with loading animation"
 s.author                  = { "Ruvim Miksanskiy" => "ruva@codingroup.com" }
 s.source                  = { :git => "https://github.com/mruvim/VideoBackground.git", :tag => s.version, :branch => "master"}
 
-s.screenshot              = "http://codingroup.com/assets/external/button.gif"
+s.screenshot              = "http://codingroup.com/assets/external/video-background.gif"
 
 s.platform                = :ios, "9.0"
 s.requires_arc            = true

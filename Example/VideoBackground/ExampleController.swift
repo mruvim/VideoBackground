@@ -19,12 +19,14 @@ class ExampleController: UIViewController {
     private func setupVideoView() {
         
         guard let videoPath = Bundle.main.path(forResource: "bg-video", ofType: "mov"),
-            let imagePath = Bundle.main.path(forResource: "videoFirstFrame", ofType: "jpg") else {
+            let imagePath = Bundle.main.path(forResource: "bg-image", ofType: "jpg") else {
                 return
         }
         
-        let options = VideoOptions(pathToVideo: videoPath, pathToImage: imagePath,
-                                   isMuted: true, shouldLoop: true)
+        let options = VideoOptions(pathToVideo: videoPath,
+                                   pathToImage: imagePath,
+                                   isMuted: true,
+                                   shouldLoop: true)
         let videoView = VideoBackground(frame: view.frame, options: options)
         view.insertSubview(videoView, at: 0)
     }

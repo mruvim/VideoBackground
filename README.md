@@ -1,3 +1,8 @@
+# VideoBackground
+Lightweight video view
+
+![VideoBackground](http://codingroup.com/assets/external/video-background.gif)
+
 ## Installation 
 ####CocoaPods:
 Add `pod 'VideoBackground', '~> 0.1'` to Podfile and run `$ pod install`
@@ -7,7 +12,7 @@ Add `pod 'VideoBackground', '~> 0.1'` to Podfile and run `$ pod install`
 Add files from `VideoBackground/Classes/*` to your project
 
 ##How to use it 
-Import VideoBackground where you plan to use it then add VideoBackground view as a subview 
+Import VideoBackground where you plan to use it then add VideoBackground as subview
  
 ```
 let videoPath = Bundle.main.path(forResource: "videoFile", ofType: "mov")
