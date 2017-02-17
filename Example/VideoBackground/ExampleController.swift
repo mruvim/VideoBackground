@@ -18,8 +18,8 @@ class ExampleController: UIViewController {
     
     private func setupVideoView() {
         
-        guard let videoPath = Bundle.main.path(forResource: "video", ofType: "mp4"),
-            let imagePath = Bundle.main.path(forResource: "imageOfFirstFrame", ofType: "jpg") else {
+        guard let videoPath = Bundle.main.path(forResource: "bg-video", ofType: "mov"),
+            let imagePath = Bundle.main.path(forResource: "videoFirstFrame", ofType: "jpg") else {
                 return
         }
         

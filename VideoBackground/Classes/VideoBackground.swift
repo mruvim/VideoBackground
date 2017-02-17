@@ -81,7 +81,7 @@ final public class VideoBackground: UIView {
     
     private func readyToDisplay() {
         guard let videoView = videoView, let imageView = imageView else { return }
-        UIView.transition(from: imageView, to: videoView, duration:0.15, options: .transitionCrossDissolve) { (_) in
+        UIView.transition(from: imageView, to: videoView, duration:0.25, options: .transitionCrossDissolve) { (_) in
             imageView.removeFromSuperview()
         }
     }

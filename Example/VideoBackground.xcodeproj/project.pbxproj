@@ -14,8 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C73B285E1E56429D008AE514 /* imageOfFirstFrame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C73B285C1E56429D008AE514 /* imageOfFirstFrame.jpg */; };
-		C73B285F1E56429D008AE514 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C73B285D1E56429D008AE514 /* video.mp4 */; };
+		C75F411C1E568E260084B48C /* videoFirstFrame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C75F411B1E568E260084B48C /* videoFirstFrame.jpg */; };
+		C75F411E1E568E3E0084B48C /* bg-video.mov in Resources */ = {isa = PBXBuildFile; fileRef = C75F411D1E568E3E0084B48C /* bg-video.mov */; };
 		EEF921174BEBDD2987EBC03A /* Pods_VideoBackground_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F080523C8E28290D2E41458 /* Pods_VideoBackground_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 		AF1CA98993187E5010607DE3 /* VideoBackground.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VideoBackground.podspec; path = ../VideoBackground.podspec; sourceTree = "<group>"; };
 		B87BB6A138E470C8FC4B6EB5 /* Pods-VideoBackground_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackground_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackground_Tests/Pods-VideoBackground_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C11AD1BFD6D8BF5322ECED7F /* Pods-VideoBackground_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackground_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackground_Tests/Pods-VideoBackground_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C73B285C1E56429D008AE514 /* imageOfFirstFrame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageOfFirstFrame.jpg; sourceTree = "<group>"; };
-		C73B285D1E56429D008AE514 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		C75F411B1E568E260084B48C /* videoFirstFrame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videoFirstFrame.jpg; sourceTree = "<group>"; };
+		C75F411D1E568E3E0084B48C /* bg-video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "bg-video.mov"; sourceTree = "<group>"; };
 		D9549F041773F6B08CED3D6F /* Pods_VideoBackground_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackground_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB46E86B137DA0456398B030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9E061FB6A34882E11239B96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -167,8 +167,8 @@
 		C73B285B1E564223008AE514 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C73B285C1E56429D008AE514 /* imageOfFirstFrame.jpg */,
-				C73B285D1E56429D008AE514 /* video.mp4 */,
+				C75F411B1E568E260084B48C /* videoFirstFrame.jpg */,
+				C75F411D1E568E3E0084B48C /* bg-video.mov */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -264,10 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				C73B285F1E56429D008AE514 /* video.mp4 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				C75F411C1E568E260084B48C /* videoFirstFrame.jpg in Resources */,
+				C75F411E1E568E3E0084B48C /* bg-video.mov in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				C73B285E1E56429D008AE514 /* imageOfFirstFrame.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

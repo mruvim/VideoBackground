@@ -22,7 +22,7 @@ pod "VideoBackground"
 
 ## Author
 
-mruvim, mruvim@gmail.com
+Ruvim Miksanskiy
 
 ## License
 
