@@ -1,7 +1,13 @@
 # VideoBackground
 Lightweight video view
 
+
+[![Version](https://img.shields.io/cocoapods/v/VideoBackground.svg?style=flat)](http://cocoapods.org/pods/VideoBackground)
+[![License](https://img.shields.io/cocoapods/l/VideoBackground.svg?style=flat)](http://cocoapods.org/pods/VideoBackground)
+[![Platform](https://img.shields.io/cocoapods/p/VideoBackground.svg?style=flat)](http://cocoapods.org/pods/VideoBackground)
+
 ![VideoBackground](http://codingroup.com/assets/external/video-background.gif)
+
 
 ## Installation 
 ####CocoaPods:
