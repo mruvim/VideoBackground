@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
 
 s.name                    = "VideoBackground"
-s.version                 = "0.1"
+s.version                 = "0.1.0"
 s.license                 = { :type => "MIT", :file => "LICENSE"}
 
 s.homepage                = "https://github.com/mruvim/VideoBackground"
-s.summary                 = "Simple button with loading animation"
+s.summary                 = "Lightweight view to display background video"
 s.author                  = { "Ruvim Miksanskiy" => "ruva@codingroup.com" }
 s.source                  = { :git => "https://github.com/mruvim/VideoBackground.git", :tag => s.version, :branch => "master"}
 
