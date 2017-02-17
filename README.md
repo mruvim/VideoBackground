@@ -5,7 +5,7 @@ Lightweight video view
 
 ## Installation 
 ####CocoaPods:
-Add `pod 'VideoBackground', '~> 0.1'` to Podfile and run `$ pod install`
+Add `pod 'VideoBackground', '~> 0.1.0'` to Podfile and run `$ pod install`
 
 
 ####Manual:
