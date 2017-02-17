@@ -14,8 +14,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C75F411C1E568E260084B48C /* videoFirstFrame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C75F411B1E568E260084B48C /* videoFirstFrame.jpg */; };
+		C75F411C1E568E260084B48C /* bg-image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C75F411B1E568E260084B48C /* bg-image.jpg */; };
 		C75F411E1E568E3E0084B48C /* bg-video.mov in Resources */ = {isa = PBXBuildFile; fileRef = C75F411D1E568E3E0084B48C /* bg-video.mov */; };
+		C75F41211E56A8750084B48C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75F41201E56A8750084B48C /* UIViewExtensions.swift */; };
 		EEF921174BEBDD2987EBC03A /* Pods_VideoBackground_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F080523C8E28290D2E41458 /* Pods_VideoBackground_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +47,9 @@
 		AF1CA98993187E5010607DE3 /* VideoBackground.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VideoBackground.podspec; path = ../VideoBackground.podspec; sourceTree = "<group>"; };
 		B87BB6A138E470C8FC4B6EB5 /* Pods-VideoBackground_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackground_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackground_Tests/Pods-VideoBackground_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C11AD1BFD6D8BF5322ECED7F /* Pods-VideoBackground_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoBackground_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoBackground_Tests/Pods-VideoBackground_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C75F411B1E568E260084B48C /* videoFirstFrame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = videoFirstFrame.jpg; sourceTree = "<group>"; };
+		C75F411B1E568E260084B48C /* bg-image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-image.jpg"; sourceTree = "<group>"; };
 		C75F411D1E568E3E0084B48C /* bg-video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "bg-video.mov"; sourceTree = "<group>"; };
+		C75F41201E56A8750084B48C /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		D9549F041773F6B08CED3D6F /* Pods_VideoBackground_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoBackground_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB46E86B137DA0456398B030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9E061FB6A34882E11239B96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				C73B285B1E564223008AE514 /* Resources */,
+				C75F411F1E56A8620084B48C /* Extensions */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = Example;
@@ -167,10 +170,18 @@
 		C73B285B1E564223008AE514 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C75F411B1E568E260084B48C /* videoFirstFrame.jpg */,
+				C75F411B1E568E260084B48C /* bg-image.jpg */,
 				C75F411D1E568E3E0084B48C /* bg-video.mov */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		C75F411F1E56A8620084B48C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C75F41201E56A8750084B48C /* UIViewExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A85K9ZZ95H;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -265,7 +277,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				C75F411C1E568E260084B48C /* videoFirstFrame.jpg in Resources */,
+				C75F411C1E568E260084B48C /* bg-image.jpg in Resources */,
 				C75F411E1E568E3E0084B48C /* bg-video.mov in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -379,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ExampleController.swift in Sources */,
+				C75F41211E56A8750084B48C /* UIViewExtensions.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B87BB6A138E470C8FC4B6EB5 /* Pods-VideoBackground_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A85K9ZZ95H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -566,6 +580,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C11AD1BFD6D8BF5322ECED7F /* Pods-VideoBackground_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A85K9ZZ95H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
