@@ -314,7 +314,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					63309BBAFC86C46EBD5128642208CFA3 = {
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 1010;
 					};
 					CA5603A90266EDF54E741F7912970D35 = {
 						LastSwiftMigration = 0820;
@@ -442,7 +442,8 @@
 				PRODUCT_NAME = VideoBackground;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -548,7 +549,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
