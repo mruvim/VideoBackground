@@ -11,7 +11,7 @@ Lightweight video view
 
 ## Installation 
 ####CocoaPods:
-Add `pod 'VideoBackground', '~> 0.1.0'` to Podfile and run `$ pod install`
+Add `pod 'VideoBackground', '~> 0.2.0'` to Podfile and run `$ pod install`
 
 
 ####Manual:
@@ -34,9 +34,9 @@ While video is loading image is displayed, when video is ready views crossfade. 
 
 ## Requirements
 
-Swift 3
+Swift 4.2
 
-Compatible with `iOS 9+`
+Compatible with `iOS 11+`
 
 ##Contribution
 

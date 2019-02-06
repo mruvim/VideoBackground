@@ -113,8 +113,8 @@ final private class VideoBackgroundView : UIView {
     
     deinit {
         NotificationCenter.default.removeObserver(self, name: .AVPlayerItemDidPlayToEndTime, object: nil)
-        NotificationCenter.default.removeObserver(self, name: .UIApplicationDidBecomeActive, object: nil)
-        NotificationCenter.default.removeObserver(self, name: .UIApplicationWillResignActive, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIApplication.didBecomeActiveNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: UIApplication.willResignActiveNotification, object: nil)
         invalidateTimer()
     }
     
@@ -125,7 +125,7 @@ final private class VideoBackgroundView : UIView {
         player.isMuted = options.isMuted
         
         let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+        playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
         playerLayer.frame = bounds
         self.playerLayer = playerLayer
         layer.addSublayer(playerLayer)
@@ -137,27 +137,27 @@ final private class VideoBackgroundView : UIView {
             NotificationCenter.default.addObserver(self, selector: #selector(startFromBeginning), name: .AVPlayerItemDidPlayToEndTime, object: nil)
         }
         
-        NotificationCenter.default.addObserver(self, selector: #selector(resumePlaying), name: .UIApplicationDidBecomeActive, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(pausePlaying), name: .UIApplicationWillResignActive, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(resumePlaying), name: UIApplication.didBecomeActiveNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(pausePlaying), name: UIApplication.willResignActiveNotification, object: nil)
     }
     
-    func startFromBeginning(notification:Notification) {
+    @objc func startFromBeginning(notification:Notification) {
         guard let player = playerLayer?.player else { return }
-        player.seek(to: kCMTimeZero)
+        player.seek(to: CMTime.zero)
         player.play()
     }
     
-    func resumePlaying(notification:Notification) {
+    @objc func resumePlaying(notification:Notification) {
         guard let player = playerLayer?.player else { return }
         player.play()
     }
     
-    func pausePlaying(notification:Notification) {
+    @objc func pausePlaying(notification:Notification) {
         guard let player = playerLayer?.player else { return }
         player.pause()
     }
     
-    func timerFired() {
+    @objc func timerFired() {
         
         guard let playerLayer = playerLayer, timerCount < 60 else {
             invalidateTimer()
